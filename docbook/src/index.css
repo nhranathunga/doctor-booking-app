@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap");
+@import "tailwindcss";
+
+a.active p {
+  display: block;
+  border: solid 1px #00bc7d;
+  border-radius: 10px;
+  font-weight: 400;
+}
+
+::-webkit-scrollbar {
+  @apply hidden;
+}
