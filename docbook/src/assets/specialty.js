@@ -13,27 +13,39 @@ import image12 from "./d6.jpg";
 
 export const spacialty = [
   {
+    id: 1,
     specialty: "Cardiologist",
+    special: "Cardiology",
     image: image01,
   },
   {
+    id: 2,
     specialty: "Dermatologist",
+    special: "Dermatology",
     image: image02,
   },
   {
+    id: 3,
     specialty: "Paediatrician",
+    special: "Pediatrics",
     image: image03,
   },
   {
+    id: 4,
     specialty: "Orthopedic",
+    special: "Orthopedics",
     image: image04,
   },
   {
+    id: 5,
     specialty: "Neurologist",
+    special: "Neurology",
     image: image05,
   },
   {
+    id: 6,
     specialty: "Denlologist",
+    special: "Dermatology",
     image: image06,
   },
 ];

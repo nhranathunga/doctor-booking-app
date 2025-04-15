@@ -17,7 +17,7 @@ const SpecialList = () => {
           return (
             <Link
               className="flex flex-col item-center text-sm text-emerald-900 cursor-pointer"
-              to={`/doctors/${special.specialty}`}
+              to={`/alldoctors/:${special.special}`}
               key={index}
             >
               <img
