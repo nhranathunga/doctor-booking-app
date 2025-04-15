@@ -1,7 +1,11 @@
 import React from "react";
+import AllDoctors from "../components/AllDoctors";
+import { useParams } from "react-router";
 
-const AllDoctors = () => {
-  return <div></div>;
+const AllDoctor = () => {
+  
+let docsp = useParams();
+  return <AllDoctors docsp={docsp}  />;
 };
 
-export default AllDoctors;
+export default AllDoctor;
