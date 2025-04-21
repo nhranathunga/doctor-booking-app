@@ -1,6 +1,6 @@
 import logo from "./log.png";
 import hero01 from "./hero01.png";
-// import hero_img1 from "./hero-image1.jpg";
+import db1 from "./doctor-banner.png";
 import profile from "./img02.jpg";
 
 // import product_item3 from "./product-item3.jpg";
@@ -15,7 +15,7 @@ import profile from "./img02.jpg";
 // import service from "./service.png";
 
 export const assets = {
-  //   exchange,
+  db1,
   //   quality,
   //   service,
   logo,
