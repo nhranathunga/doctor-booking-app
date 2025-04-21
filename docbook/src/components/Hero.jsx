@@ -5,14 +5,18 @@ const Hero = () => {
   return (
     <div className="flex flex-col md:flex-row flex-wrap  bg-emerald-600 text-white mt-5 px-20 rounded-sm">
       {/* left side */}
-      <div className=" md:w-1/2 flex flex-col items-start justify-center gap-4 mb-60">
+      <div className=" md:w-1/2 flex flex-col items-start justify-center gap-4 mb-30">
         <p className="font-bold text-3xl pt-30  ">
           Book Appointment <br /> With Trusted Doctors
         </p>
         <div>
-          <p className=" text-sm">
-            Lorem ipsum dolor sit amet consectetur suscipit ipsam <br />
-            mollitia, possimus laudantium minima !
+          <p className=" text-sm w-2/3">
+            Lorem ipsum dolor sit amet consectetur suscipit ipsam mollitia,
+            possimus laudantium minima Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Quae provident aperiam sed ipsum numquam
+            necessitatibus! Architecto veritatis itaque, repudiandae dicta
+            ratione, quam hic suscipit culpa cumque velit, minima recusandae
+            harum. !
           </p>
         </div>
         <a

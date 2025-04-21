@@ -44,6 +44,9 @@ const AllDoctors = ({ docsp }) => {
                 />
               ))}
             </div>
+            <button className="flex justify-center items-center border-2 border-b-emerald-600">
+              More
+            </button>
           </div>
         </div>
       </div>
